@@ -17,6 +17,6 @@ def lucas_iter(n):
     return b
 
 
-N = 25
-print(lucas_rec(N))
+N = 100
+# print(lucas_rec(N))
 print(lucas_iter(N))
