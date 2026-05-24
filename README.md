@@ -39,3 +39,9 @@ Calculate the straight-line distance between two points in 2D space using the Py
 Estimate Pi using the Monte Carlo method. Generate random points in a unit square [0,1] x [0,1]. Count how many fall inside the unit circle (x^2 + y^2 <= 1). The ratio of points inside the circle to total points approximates Pi/4, so Pi ≈ 4 * (inside / total).
 
 **Solutions:** [Python](pi/pi.py) | [Clojure](pi/pi.clj)
+
+## Lucas Sequence
+
+Similar to Fibonacci but with different base cases: L(0) = 2, L(1) = 1, and L(n) = L(n-1) + L(n-2). Sequence: 2, 1, 3, 4, 7, 11, 18, 29, ... Implement recursive and iterative versions.
+
+**Solutions:** [Python](lucas/lucas.py) | [Clojure](lucas/lucas.clj)
