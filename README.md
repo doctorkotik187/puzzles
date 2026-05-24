@@ -33,3 +33,9 @@ Start with any positive integer n. If n is even, divide by 2. If n is odd, multi
 Calculate the straight-line distance between two points in 2D space using the Pythagorean formula: d = sqrt((x2-x1)^2 + (y2-y1)^2). Can be extended to 3D.
 
 **Solutions:** [Python](distance/distance.py) | [Clojure](distance/distance.clj)
+
+## Pi Approximation (Monte Carlo)
+
+Estimate Pi using the Monte Carlo method. Generate random points in a unit square [0,1] x [0,1]. Count how many fall inside the unit circle (x^2 + y^2 <= 1). The ratio of points inside the circle to total points approximates Pi/4, so Pi ≈ 4 * (inside / total).
+
+**Solutions:** [Python](pi/pi.py) | [Clojure](pi/pi.clj)
