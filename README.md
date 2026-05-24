@@ -21,3 +21,9 @@ Given a number n, print the first n Fibonacci numbers.
 Sort a list of numbers using the bubble sort algorithm. Repeatedly step through the list, compare adjacent elements, and swap them if they are in the wrong order. The pass through the list is repeated until the list is sorted. Time complexity: O(n^2).
 
 **Solutions:** [Python](bubblesort/bubblesort.py) | [Clojure](bubblesort/bubblesort.clj)
+
+## Collatz Conjecture
+
+Start with any positive integer n. If n is even, divide by 2. If n is odd, multiply by 3 and add 1. Repeat until you reach 1. Print the sequence and count the steps. The conjecture states that this always reaches 1, but nobody has proven it.
+
+**Solutions:** [Python](collatz/collatz.py) | [Clojure](collatz/collatz.clj)
