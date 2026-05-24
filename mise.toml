@@ -1,5 +1,6 @@
 [tools]
 babashka = { version = "latest", exe = "bb" }
+black = "latest"
 clojure = "latest"
 java = "latest"
 python = "latest"

@@ -15,3 +15,9 @@ Generate the Fibonacci sequence. Each number is the sum of the two preceding one
 Given a number n, print the first n Fibonacci numbers.
 
 **Solutions:** [Python](fibonacci/fibonacci.py) | [Clojure](fibonacci/fibonacci.clj)
+
+## Bubble Sort
+
+Sort a list of numbers using the bubble sort algorithm. Repeatedly step through the list, compare adjacent elements, and swap them if they are in the wrong order. The pass through the list is repeated until the list is sorted. Time complexity: O(n^2).
+
+**Solutions:** [Python](bubblesort/bubblesort.py) | [Clojure](bubblesort/bubblesort.clj)
