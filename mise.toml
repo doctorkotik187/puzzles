@@ -2,3 +2,4 @@
 babashka = { version = "latest", exe = "bb" }
 clojure = "latest"
 java = "latest"
+python = "latest"
