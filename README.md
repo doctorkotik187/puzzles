@@ -27,3 +27,9 @@ Sort a list of numbers using the bubble sort algorithm. Repeatedly step through 
 Start with any positive integer n. If n is even, divide by 2. If n is odd, multiply by 3 and add 1. Repeat until you reach 1. Print the sequence and count the steps. The conjecture states that this always reaches 1, but nobody has proven it.
 
 **Solutions:** [Python](collatz/collatz.py) | [Clojure](collatz/collatz.clj)
+
+## Euclidean Distance
+
+Calculate the straight-line distance between two points in 2D space using the Pythagorean formula: d = sqrt((x2-x1)^2 + (y2-y1)^2). Can be extended to 3D.
+
+**Solutions:** [Python](distance/distance.py) | [Clojure](distance/distance.clj)
